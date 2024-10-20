@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Telehealth Accessibility</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Telehealth Accessibility</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="registration.html">Register</a>
+            <a href="booking.html">Book Appointment</a>
+            <a href="consultation.html">Video Consultation</a>
+            <a href="accessibility.html">Accessibility</a>
+        </nav>
+    </header>
+    <main>
+        <section id="book-appointment">
+            <h2>Book Appointment</h2>
+            <form id="booking-form">
+                <label for="appointment-date">Date:</label>
+                <input type="date" id="appointment-date" name="appointment-date" required>
+
+                <label for="appointment-time">Time:</label>
+                <input type="time" id="appointment-time" name="appointment-time" required>
+
+                <label for="additional-notes">Additional Notes:</label>
+                <textarea id="additional-notes" name="additional-notes"></textarea>
+
+                <a href="camera.html">
+                    <button type="submit">Book Appointment</button>
+                </a>
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Telehealth Accessibility. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

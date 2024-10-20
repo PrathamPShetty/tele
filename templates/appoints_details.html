@@ -1,0 +1,6 @@
+<h1>Appointment Details</h1>
+<p>Doctor: {{ appointment.doctor.user.username }}</p>
+<p>Patient: {{ appointment.patient.user.username }}</p>
+<p>Date: {{ appointment.date }}</p>
+<p>Time: {{ appointment.time }}</p>
+<p><a href="{{ appointment.video_link }}" target="_blank">Join Video Call</a></p>
